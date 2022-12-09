@@ -1,2 +1,2 @@
 # BetterVoxiom
-Voxiom Improvements
+Improvements to Voxiom, notably in terms of UI
