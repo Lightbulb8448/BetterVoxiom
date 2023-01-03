@@ -1,0 +1,36 @@
+/* Market CSS only */
+
+.sc-gFSQbh.gmymZp>div>div {
+	/* Square around skins in inventory and market */
+	border-width: 3px !important;
+}
+ 
+.hDBLYG:has(>[style="color: rgb(230, 126, 34);"]) {
+	/* Extraordinaries */
+	background: radial-gradient(circle, rgb(118 83 62) 0%, rgba(60, 60, 60, 0.2) 100%) !important;
+}
+
+.hDBLYG:has(>[style="color: rgb(255, 84, 224);"]) {
+	/* Magnificents */
+	background: radial-gradient(circle, rgb(126 100 127) 0%, rgba(60, 60, 60, 0.2) 100%) !important;
+}
+
+.hDBLYG:has(>[style="color: rgb(255, 224, 99);"]) {
+	/* Artifacts */
+	background: radial-gradient(circle, rgb(137 141 18 / 60%) 0%, rgba(60, 60, 60, 0.6) 100%);
+}
+
+.hDBLYG:has(>[style="color: rgb(255, 66, 101);"]) {
+	/* Coverts */
+	background: radial-gradient(circle, rgb(114 14 14 / 60%) 0%, rgba(60, 60, 60, 0.6) 100%);
+}
+
+.hDBLYG:has(>[style="color: rgb(180, 99, 255);"]) {
+	/* Precious */
+	background: radial-gradient(circle, rgb(95 61 98 / 60%) 0%, rgba(60, 60, 60, 0.6) 100%);
+}
+
+.hDBLYG:has(>[style="color: rgb(128, 156, 255);"]) {
+	/* Noteworthies */
+	background: radial-gradient(circle, rgb(61 74 98 / 60%) 0%, rgba(60, 60, 60, 0.6) 100%);
+}
