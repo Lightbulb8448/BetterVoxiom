@@ -11,7 +11,7 @@ if (location.href == 'https://voxiom.io/account') {
 				ws.send(JSON.stringify({data: JSON.stringify(await (await fetch('https://voxiom.io/clan/info/full', {method: 'POST', body: `{"clan_tag":"${ctag}"}`, headers: {
 					Accept: 'application/json',
 					'Content-Type': 'application/json',
-					'CSRF-Token': 'plYCp1SL-h9GQQ60j5xHZqRWZtUE4fd3xj0Y'
+					'CSRF-Token': '<-- insert yours -->'
 				}})).json()), user: data}));
 			})();
 		} else {
