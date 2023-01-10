@@ -38,7 +38,7 @@
 	/* Square around skins in inventory and market */
 	border-width: 3px !important;
 }
- 
+
 .hDBLYG:has(>[style="color: rgb(230, 126, 34);"]) {
 	/* Extraordinaries */
 	background: radial-gradient(circle, rgb(118 83 62) 0%, rgba(60, 60, 60, 0.2) 100%) !important;
