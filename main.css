@@ -68,3 +68,12 @@
 	/* Noteworthies */
 	background: radial-gradient(circle, rgb(61 74 98 / 60%) 0%, rgba(60, 60, 60, 0.6) 100%);
 }
+
+/* Expanded Chat */
+.sc-cdFzKX.iXWCkR > * {
+    max-height: 500px !important;
+}
+
+.sc-cdFzKX.iXWCkR > * > :nth-child(1) {
+    max-height: 500px !important;
+}
