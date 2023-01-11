@@ -1,0 +1,7 @@
+.sc-cdFzKX.iXWCkR > * {
+    max-height: 500px !important;
+}
+
+.sc-cdFzKX.iXWCkR > * > :nth-child(1) {
+    max-height: 500px !important;
+}
