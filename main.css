@@ -38,7 +38,7 @@
 	/* Square around skins in inventory and market */
 	border-width: 3px !important;
 }
-
+ 
 .hDBLYG:has(>[style="color: rgb(230, 126, 34);"]) {
 	/* Extraordinaries */
 	background: radial-gradient(circle, rgb(118 83 62) 0%, rgba(60, 60, 60, 0.2) 100%) !important;
@@ -69,7 +69,11 @@
 	background: radial-gradient(circle, rgb(61 74 98 / 60%) 0%, rgba(60, 60, 60, 0.6) 100%);
 }
 
-/* Expanded Chat */
+
 .sc-cdFzKX.iXWCkR > *, .sc-cdFzKX.iXWCkR > * > :nth-child(1) {
     max-height: 500px !important;
+}
+
+.bNczYf {
+	background-image: url('https://hosting.l1ghtbulb.repl.co/vapo.png') !important;
 }
