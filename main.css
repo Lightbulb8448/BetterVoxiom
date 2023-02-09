@@ -74,8 +74,22 @@
     max-height: 500px !important;
 }
 
+@keyframes colorrotate {
+	from {
+		filter: hue-rotate(0deg);
+	}
+	
+	to {
+		filter: hue-rotate(360deg);
+	}
+}
+
 .bNczYf {
-	background-image: url('https://hosting.l1ghtbulb.repl.co/vapo.png') !important;
+	/*background-image: url('https://hosting.l1ghtbulb.repl.co/aim.gif') !important;*/
+	background-image: url('https://i.imgur.com/J1Muzh3.png') !important;
+	
+	/*filter: hue-rotate(45deg);*/
+	/*animation: colorrotate 60s linear infinite;*/
 }
 
 .sc-heyBJZ.lnowGN, .sc-Dtwra.eoolpn, .sc-hatQeL.dXfkYO {
@@ -98,7 +112,38 @@
 	background-color: transparent !important;
 }
 
-.hIaLVk {
-	/*backdrop-filter: blur(5px);*/
-	transform: rotate(30deg) !important;
+div.dxWFIk {
+	background-image: linear-gradient(270deg, rgba(18,56,82,0.65), transparent);
+	transition: background-image 1s;
+}
+
+div.dxWFIk:not(.hIaLVk) {
+	background-image: linear-gradient(270deg, rgba(18,56,82,0.65), transparent);
+	transition: background-image 1s;
+	border: none;
+}
+
+.hIaLVk.dxWFIk {
+	transform: rotate(45deg) !important;
+	border-left: none !important;
+	border-top: none !important;
+	background-image: linear-gradient(315deg, #089d9d, transparent);
+}
+
+.HItYI {
+	flex-direction: column;
+}
+
+.sc-gdWVyK.sxEef {
+	padding: 9px;
+}
+
+span.sc-gCEpsI.sc-hzbjYJ.iQATOm.gZLiLw {
+	display: none;
+}
+
+.sc-eQtFQz.bqhAKF {
+	position: fixed;
+	right: 20px;
+	bottom: 8px;
 }
