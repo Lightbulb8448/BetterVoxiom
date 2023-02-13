@@ -74,22 +74,9 @@
     max-height: 500px !important;
 }
 
-@keyframes colorrotate {
-	from {
-		filter: hue-rotate(0deg);
-	}
-	
-	to {
-		filter: hue-rotate(360deg);
-	}
-}
-
 .bNczYf {
-	/*background-image: url('https://hosting.l1ghtbulb.repl.co/aim.gif') !important;*/
-	background-image: url('https://i.imgur.com/J1Muzh3.png') !important;
-	
-	/*filter: hue-rotate(45deg);*/
-	/*animation: colorrotate 60s linear infinite;*/
+	/* -- to change the background : change the url between quotes to that of another image -- */
+	background-image: url('https://voxiom.io/package/c30b27cd3f6c8d9bb236.jpg') !important;
 }
 
 .sc-heyBJZ.lnowGN, .sc-Dtwra.eoolpn, .sc-hatQeL.dXfkYO {
