@@ -74,9 +74,18 @@
     max-height: 500px !important;
 }
 
+@keyframes colorrotate {
+	from {
+		filter: hue-rotate(0deg);
+	}
+	
+	to {
+		filter: hue-rotate(360deg);
+	}
+}
+
 .bNczYf {
-	/* -- to change the background : change the url between quotes to that of another image -- */
-	background-image: url('https://voxiom.io/package/c30b27cd3f6c8d9bb236.jpg') !important;
+	background-image: url('https://i.imgur.com/J1Muzh3.png') !important;
 }
 
 .sc-heyBJZ.lnowGN, .sc-Dtwra.eoolpn, .sc-hatQeL.dXfkYO {
@@ -104,9 +113,49 @@ div.dxWFIk {
 	transition: background-image 1s;
 }
 
+div.dxWFIk:has(>img[style="background-color: rgb(46, 204, 113);"]) { /* Uncommon */
+	background-image: linear-gradient(270deg, rgba(46,204,113,0.65), transparent);
+}
+
+.hIaLVk.dxWFIk:has(>img[style="background-color: rgb(46, 204, 113);"]) {
+	background-image: linear-gradient(315deg, rgb(46,204,113), transparent);
+}
+
+div.dxWFIk:has(>img[style="background-color: rgb(155, 89, 182);"]) { /* Epic */
+	background-image: linear-gradient(270deg, rgba(155, 89, 182,0.65), transparent);
+}
+
+.hIaLVk.dxWFIk:has(>img[style="background-color: rgb(155, 89, 182);"]) {
+	background-image: linear-gradient(315deg, rgb(155, 89, 182), transparent);
+}
+
+div.dxWFIk:has(>img[style="background-color: rgb(52, 152, 219);"]) { /* Rare */
+	background-image: linear-gradient(270deg, rgba(52, 152, 219, 0.65), transparent);
+}
+
+.hIaLVk.dxWFIk:has(>img[style="background-color: rgb(52, 152, 219);"]) {
+	background-image: linear-gradient(315deg, rgb(52, 152, 219), transparent);
+}
+
+div.dxWFIk:has(>img[style="background-color: rgb(241, 196, 15);"]) { /* Legendary (Gold) */
+	background-image: linear-gradient(270deg, rgba(241, 196, 15,0.65), transparent);
+}
+
+.hIaLVk.dxWFIk:has(>img[style="background-color: rgb(241, 196, 15);"]) {
+	background-image: linear-gradient(315deg, rgb(241, 196, 15), transparent);
+}
+
+div.dxWFIk:has(>img[style="background-color: rgb(211, 84, 0);"]) { /* Mythics */
+	background-image: linear-gradient(270deg, rgba(211, 84, 0,0.65), transparent);
+}
+
+.hIaLVk.dxWFIk:has(>img[style="background-color: rgb(211, 84, 0);"]) {
+	background-image: linear-gradient(315deg, rgb(211, 84, 0), transparent);
+}
+
 div.dxWFIk:not(.hIaLVk) {
-	background-image: linear-gradient(270deg, rgba(18,56,82,0.65), transparent);
-	transition: background-image 1s;
+/*	background-image: linear-gradient(270deg, rgba(18,56,82,0.65), transparent);*/
+/*	transition: background-image 1s;*/
 	border: none;
 }
 
