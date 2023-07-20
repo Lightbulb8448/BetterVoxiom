@@ -1,6 +1,16 @@
+/* See lines 98-99 for the background image. */
 * {
-	/* Menlo because yes */
-	font-family: 'Menlo';
+	/* 
+	Font. Change to a font's name (in quotes if it contains a space) to use this font instead.
+	Want to use the default Voxiom font?
+	Change the line to this:
+	  font-family: lato,Helvetica,sans-serif;
+	Examples:
+	  font-family: 'Comic Sans MS';
+	
+	  font-family: Helvetica;
+	*/
+	font-family: 'Menlo', monospace;
 }
 
 [href="/friends"]>:nth-child(1), [href="/clans"]>:nth-child(1) {
