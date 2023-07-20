@@ -1,6 +1,9 @@
 > For CSS : see main.css
 
 # VCL
+
+> releasing on July 23 if possible.
+
 ## Features
 * Font changer
 * Custom crosshair
