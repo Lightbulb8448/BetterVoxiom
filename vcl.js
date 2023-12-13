@@ -1,6 +1,9 @@
 //85da08161978b949530d.js
 'use strict';
 setInterval(() => {
+    window._RENDER_1 = true;
+    window._RENDER_2 = true;
+    window._RENDER_3 = true;
     try {
         onbeforeunload = null; // allow reload
         if (!!(document.querySelector('.sc-kITQLZ.kGCZjc') || document.querySelector('.sc-efaPnb.hiScFt'))) {
@@ -9,8 +12,10 @@ setInterval(() => {
             window.removeMinimap = false;
         }
         if (removeMinimap) {
+            window._RENDER_4 = undefined;
             document.querySelector('.sc-eHyqeh.hhRbH').classList.add('vcl-hide');
         } else {
+            window._RENDER_4 = true;
             document.querySelector('.sc-eHyqeh.hhRbH').classList.remove('vcl-hide');
         }
     } catch (e) {/* ... */ }
