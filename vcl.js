@@ -93,10 +93,10 @@ setInterval(() => {
                 this['zui']['clear'](),
                 this['zui']['render'](this['zuu'], this['zuT']),
                 this['zui']['clearDepth'](),
-                this['zui']['render'](this['zub'], this['zug']),
+                (!window.removeMinimap && this['zui']['render'](this['zub'], this['zug'])),
                 this['zui']['clearDepth'](),
                 this['zui']['render'](this['zuC'], this['zuD']),
-                (!window.removeMinimap && this['zui']['render'](this['zuF'], this['zuV']));
+                this['zui']['render'](this['zuF'], this['zuV']);
             }
             ,
             gE['zuo'] = function() {
